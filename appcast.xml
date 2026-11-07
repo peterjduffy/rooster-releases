@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Rooster</title>
+    <link>https://rooster.cam/appcast.xml</link>
+    <description>Updates for Rooster, the Mac video editor.</description>
+    <language>en</language>
+    <item>
+      <title>Rooster 1.2.0</title>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.2 makes an intro or outro a layout you apply to a scene, so the title sits over your opening words instead of delaying them. Select a scene, choose Layout, then Intro or Outro and the look you want.</p>
+        <p>A new project now starts from your own defaults: the caption style you last used, a saved text look for titles and lower thirds, and a logo in the corner you chose.</p>
+        <h3>New</h3>
+        <ul><li>Intro is a layout for a scene you make: Full frame shows the title while your voice plays on, and Beside you keeps you in a panel next to it.</li><li>Outro is a layout too: Call to action adds a thank-you, a line and your handle, and End screen marks where YouTube places its end cards.</li><li>A new project starts in the caption style you last used, or a saved look you choose under Settings &gt; New projects.</li><li>Use for new projects on a title saves its font and colours. New titles and lower thirds start in them where the colour stays readable, cards included.</li><li>Use for new projects on a logo saves it, and each new project starts with it in the corner you chose.</li><li>The timeline zooms in to single frames, with a tick per frame and hundredths of a second on the ruler.</li><li>AI apps can place an intro or outro on a scene and choose its look.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The Improve panel is one conversation: Rooster&apos;s own findings and your requests sit in one thread, with no switch between tools and chat.</li><li>After a run, the Improve panel offers next steps as buttons, and says in one sentence when it found nothing to cut.</li><li>Done on an Improve run&apos;s own review now says how many cuts it kept.</li><li>The Elements rail&apos;s Intro and Outro tiles are replaced by Layout &gt; Intro and Layout &gt; Outro. Older projects keep the outro they have.</li><li>Settings &gt; Storage lists the space your saved new-project logo uses.</li><li>The canvas shape is a labelled chip under the canvas, beside Layout, Background and Layers, instead of a small icon in the corner.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.2.0/Rooster-1.2.0.dmg" length="38967350" type="application/octet-stream" sparkle:edSignature="Ietnd9NioguV2nK2cX4Av80NRdz6gVLKAvHhqzikhBWX8dP571rgTJmnquHDmUDG1zcr/98PJNQxM5tyU103CQ==" />
+    </item>
+    <item>
+      <title>Rooster 1.1.0</title>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.1 makes the assistant more useful when you are not sure what to ask. Ask it &quot;where do I start?&quot;, &quot;make it better&quot; or &quot;what can you do?&quot; and it answers with next steps you can press.</p>
+        <p>AI apps connected to Rooster now work when Rooster is closed, and the tools that remove work are marked, so an AI app can ask before using them.</p>
+        <h3>New</h3>
+        <ul><li>Ask the assistant &quot;where do I start?&quot; and it lists up to three next steps for this project, from recording to export.</li><li>Ask it &quot;make it better&quot; and it lists what Rooster found to tidy, such as filler words, silences, captions and Studio Voice.</li><li>The assistant answers &quot;what can you do?&quot; and questions about Rooster itself.</li><li>The assistant&apos;s suggestions are buttons you can press.</li><li>An AI app can now reach a closed Rooster, which opens in the background for its call.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The tools that cut or remove work are marked, so an AI app can ask you before using them.</li><li>Settings &gt; AI Apps names each connected app, and the Claude app&apos;s Code tab shows as Claude.</li><li>Words in the timeline&apos;s script lane now sit over their own sound, and zooming in shows any that do not fit.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Save Frame from an AI app names a missing recording instead of failing without a reason.</li><li>When the licence has lapsed, an AI app&apos;s export or frame is refused in the same words Export uses.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.1.0/Rooster-1.1.0.dmg" length="37331716" type="application/octet-stream" sparkle:edSignature="APapFd6KsgeTdjWnlvUla3ShhI8YOrbPG1O7NigjFwtZRmmHHq3/vgKYDcL0zdcWBI20Y+LfoPekabmbVz7UDA==" />
+    </item>
+    <item>
+      <title>Rooster 1.0.0</title>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.0 is a video editor for the Mac that you edit by editing the words. Record your screen and camera, or bring in a video, and Rooster transcribes it on your Mac. Delete words to cut them, take out filler words in one step, add zooms, captions and titles, and export. Your recordings stay on your Mac.</p>
+        <p>New since 0.18: an AI app you already use, such as Claude or ChatGPT, can now edit your projects in Rooster. Intro, title and outro cards join Elements, Even out volume levels a recording&apos;s quiet and loud phrases, and the editor is calmer, with the script under or beside the picture.</p>
+        <h3>New</h3>
+        <ul><li>Settings &gt; AI Apps connects Claude, ChatGPT and Codex, Cursor or Claude Code, so they can read, edit and export your projects while Rooster is open.</li><li>Each AI app edit is one undo step, and Keep Out of AI Apps in a project&apos;s right-click menu hides that project from them.</li><li>Elements adds intro, title and outro cards, and an outro gets a scene of its own at the end.</li><li>A lower third can fill itself from the opening of the transcript.</li><li>Elements can put a video on the canvas.</li><li>Even out volume, in the Sound section and on for new projects, brings quiet and loud phrases to one level.</li><li>The script underlines filler words and repeated words.</li><li>View &gt; Hide Script gives the picture the whole window.</li><li>The assistant can add, list, edit and remove titles and other graphics.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The script sits under the picture, or beside it in a wide window, and the timeline opens when you ask for it.</li><li>Play and the time sit in one bar at the editor&apos;s foot, and Undo sits in the title bar.</li><li>The sidebar shows a frame from each project.</li><li>Find lists its matches in the rail as Search results.</li><li>A quiet recording is raised before it is transcribed, so fewer words are missed.</li><li>Loudness matching now reaches its target on a recording with a loud peak.</li><li>The record button is a pill, the framing guides sit on the picture, and the recorder shows device names whole.</li><li>A first project opens on Improve, where its filler words and silences are listed.</li><li>When Export cannot build, it names the missing files before the save panel opens.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Delete over a zoom&apos;s bar removes the zoom, not the clip under it.</li><li>Paste puts back a clip just cut from the timeline, and keeps working after a delete.</li><li>An H.264 export above 4K shows a size figure the file stays under.</li><li>The canvas stays clear while the project list is shown.</li><li>Copying words from the script copies plain text.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.0.0/Rooster-1.0.0.dmg" length="37315350" type="application/octet-stream" sparkle:edSignature="FdCf1HJWN/PMrwvpDO/Vv4jtHvFNsX/dUteCly+NORZuJ+2nvrTmuGQ/YiI+JVAzXMYBM92jtbQ45o7nKWzvAQ==" />
+    </item>
+    <item>
+      <title>Rooster 0.18.0</title>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>A zoom can now be moved, retimed and re-aimed after you add it: drag its bar on the timeline, or select its clip and drag the picture. Audio exports gain an Advanced section for channels, sample rate and bit rate.</p>
+        <p>Blur Region is retired. Highlight Region stays, and a blur in an older project still plays and exports. Many smaller fixes from daily use land across the script, the timeline and the canvas.</p>
+        <h3>New</h3>
+        <ul><li>Each zoom shows as a bar on the timeline: drag its middle to move it, or either end to retime it.</li><li>With a zoom&apos;s clip selected and the playhead inside it, dragging the picture re-aims the whole zoom in one step.</li><li>The clip&apos;s Zoom band sets a whole zoom&apos;s size and centre, and Remove takes off the whole zoom.</li><li>Audio exports have an Advanced section: mono or stereo, 44.1 or 48 kHz, and for AAC and MP3 a bit rate from 32 to 256 kbps, remembered per project.</li><li>Restore over a selection that touches several cuts puts every one back in one step.</li><li>The script&apos;s right-click menu offers Paste where you have cut words to paste.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Script keys that do nothing now say why, in place of a beep.</li><li>Undo and Redo in the script show the selection bar over the words they bring back.</li><li>A picture from Elements lands in front of every layer, and a small shape or picture moves by its middle.</li><li>A take inserted into the main recording cuts every layer across the join, not only the camera inset.</li><li>A new shape&apos;s outline lands dark over a light picture and white over a dark one.</li><li>Improve&apos;s list comes back when an undo returns the project to the state it read.</li><li>VoiceOver reads a cut mark as a cut, and tells apart two markers in the same second.</li><li>AAC exports are written at a steady 128 kbps, and an untouched stereo MP3 is now 128 kbps rather than 192.</li><li>With usage data turned on, Rooster also counts each day it is used.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Edit &gt; Cut, Copy, Paste and Delete work on a timeline clip you click.</li><li>The canvas keeps showing your edits while some of the project&apos;s files are missing.</li><li>A video with no sound says so again after a relaunch.</li><li>A 5K or 6K H.264 export&apos;s size estimate now scales with the picture it writes.</li><li>Clicking a transition on the ruler no longer moves a playhead already in that scene.</li><li>A timeline height you dragged stays put when Layer Size changes.</li><li>The editor window keeps its minimum size after a display change, and Export no longer truncates beside a transcription status.</li><li>The teleprompter&apos;s drop message stands alone while you drag a file over it.</li><li>A take recorded while another project was open keeps the caret at its end, so the next take follows it.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.18.0/Rooster-0.18.0.dmg" length="36769641" type="application/octet-stream" sparkle:edSignature="RyJiSUpQnuNY9NoPaCdk+koTVsy/qFILuJzCLFW/bMv/dwzrbKOhbxZb8GN7Nz7hoKjCaFwv3eQOaylbuk2+BA==" />
+    </item>
+    <item>
+      <title>Rooster 0.17.0</title>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Screen recordings now keep your voice on its own track, so Studio Voice cleans them as it already cleaned camera takes. If your microphone cuts the start of each phrase after a pause, the recorder tells you, and Studio Voice puts those first words back.</p>
+        <p>Shorten long pauses finds more pauses and leaves an even gap each side of the cut, and new projects export at a matched loudness unless you turn it off.</p>
+        <h3>New</h3>
+        <ul><li>Screen and Screen + Camera takes record your microphone to a file of its own, so Studio Voice cleans your voice and leaves the Mac&apos;s sound as it is.</li><li>The recorder warns when your microphone cuts the start of each phrase, with a one-click Turn on Studio Voice button.</li><li>A Screen take cut short by a crash or a forced quit is recovered with its voice the next time Rooster opens.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Studio Voice restores the first word after a pause where a microphone&apos;s noise gate clipped it.</li><li>Shorten long pauses keeps half of the remaining silence on each side of the cut, rather than all of it before.</li><li>Shorten long pauses finds pauses it missed before: one after a word timed late into the silence, and one split by a short breath or click.</li><li>Match loudness to -16 LUFS is on by default for a project that has never been exported.</li><li>The welcome screen asks for usage data in plainer words.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Clicking the project&apos;s name in the title bar opens a rename field wide enough to see what you type.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.17.0/Rooster-0.17.0.dmg" length="37624349" type="application/octet-stream" sparkle:edSignature="kZb3xs/lDg0vGEh6tpC8H8tRdbP9XyWTFrgCf6DskQHP8GVFCFffLbVJZyqrsNTbtWWoudRoU6T46bmj/23LCg==" />
+    </item>
+    <item>
+      <title>Rooster 0.16.0</title>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>You can now give Rooster your email, on the welcome screen or in Settings &gt; Diagnostics, for a reminder before your trial ends, a few tips for your first video and one question about how it is going. You can also share a few usage counts that show where new users get stuck.</p>
+        <p>Both are off unless you turn them on, and neither ever carries your recordings, transcripts or file names.</p>
+        <h3>New</h3>
+        <ul><li>Give your email on the welcome screen or in Settings &gt; Diagnostics for a trial reminder, tips and one question. Remove in Settings deletes it.</li><li>Share usage counts: eight one-time counts, such as your first export, off unless you turn them on, on the welcome screen or Settings &gt; Diagnostics.</li><li>When a trial ends without a licence, Rooster asks once what stopped you. Your answer goes only when you press Send.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.16.0/Rooster-0.16.0.dmg" length="36502041" type="application/octet-stream" sparkle:edSignature="A4KgzV4U6ZS0S3fReN9CgYbwSSMD8l31ynE1sVrbdThbNdnR2hE+SkU/XPzfnVdpJb/kLENhzp2JTyMx2OPBCw==" />
+    </item>
+    <item>
+      <title>Rooster 0.15.0</title>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Export your audio as an MP3, and find Export beside the project&apos;s name in the title bar, which gives the editor the room the toolbar took. A right-click on the recording&apos;s picture can now cut everything before or after that point.</p>
+        <p>Smooth jump cuts has been retired: on real recordings its punch-in made a cut more noticeable, not less. Punch-ins already in a project stay, and Zoom in Adjust removes one.</p>
+        <h3>New</h3>
+        <ul><li>Export an MP3: choose MP3 audio (.mp3) in the Format menu.</li><li>Right-click the main recording&apos;s picture on the timeline to Split Here, Delete Before Here or Delete After Here at the point under the pointer.</li><li>Help &gt; Roadmap and Feature Requests opens Rooster&apos;s public roadmap, where you can vote for features and suggest new ones.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The project&apos;s name and Export now sit in the title bar, and the editor takes the full height below it.</li><li>Export formats have plainer names: MP4 video, Smaller MP4 video, AAC audio, Lossless WAV audio and MP3 audio.</li><li>Improve&apos;s row for repeated takes is now called Remove retakes.</li><li>Studio Voice and Eye Contact in Improve each take one short line, drawn like the rest of the list.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>A take recorded onto the main recording leaves the playhead at its end, so takes recorded one after another land in order.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.15.0/Rooster-0.15.0.dmg" length="37318427" type="application/octet-stream" sparkle:edSignature="BmgtvMPn9FutWrW1PWMX8XSDvWAjUsv6Dv6juabB/DRVAEmORBnFHbluhpT/0SZ83zL+baGi+VqZ11oHnDkMCg==" />
+    </item>
+    <item>
+      <title>Rooster 0.14.0</title>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Titles can now animate in and out, with twelve new typefaces and a font list you can search. The teleprompter reads scripts from Word, PDF and Rich Text, the transcript finds speech it used to leave out, and the timeline and side panel resize by dragging.</p>
+        <h3>New</h3>
+        <ul><li>Animate a title in and out with Fade, Blur, Slide up or Pop, from the Animation section of its Adjust panel or the text toolbar.</li><li>Twelve new typefaces for titles and captions, including Inter, Montserrat, Playfair Display and Caveat.</li><li>Search the font list by name, with each font shown in its own face.</li><li>The teleprompter reads a script from Word, PDF, Rich Text, plain text or Markdown, chosen or dropped on the panel.</li><li>Drag the line above the timeline to make it taller or shorter, or drag it to the bottom to hide it.</li><li>Drag the side panel&apos;s edge to widen it, or past its narrowest to close it.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Transcription is more accurate and catches more filler words.</li><li>Speech the transcript used to leave out, such as a false start before a retake, is now found and added to the script.</li><li>Speech that cannot be made out shows in the script as unclear, so it can still be seen and cut.</li><li>Undo and redo select the words they bring back and scroll to them, and Escape clears a script selection.</li><li>Escape after typing a new title keeps it selected, so Delete removes it, and right-clicking a layer on the canvas offers Delete.</li><li>Importing a teleprompter script over an existing one asks before replacing it.</li><li>The title bar is quieter: the sidebar button has a new drawing and the Rooster mark is gone from it.</li><li>Credits say what each component does in Rooster.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>The divider between the script and the canvas now follows the pointer, instead of moving at half speed.</li><li>On Auto-detect, a video in a language Parakeet cannot transcribe now stops with a message instead of producing nonsense.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.14.0/Rooster-0.14.0.dmg" length="36211740" type="application/octet-stream" sparkle:edSignature="nTe0z1CFw2JvFVDnSE1td83/6BY6ms0NQfLbvtwZqT2wWgRBrWdwE0PhvQMUZqgwaB819dWjniVQFmhBmD5wCg==" />
+    </item>
+    <item>
+      <title>Rooster 0.13.0</title>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>The teleprompter now follows your voice, scrolling as you read and waiting while you pause. On macOS 27, the Improve chat also answers questions - how to do something in Rooster, with a link to the help page, and what is in your project - alongside the edits it already makes.</p>
+        <h3>New</h3>
+        <ul><li>The teleprompter follows your voice: it scrolls as you read and holds through pauses and ad-libs. Scroll speed in its settings switches back to Constant.</li><li>On macOS 27, ask the Improve chat how to do something and it answers from Rooster&apos;s help, with a link to the page.</li><li>On macOS 27, ask the Improve chat about your project, such as whether captions are on, and it answers from the project itself.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>A punch-in from Smooth jump cuts now returns to wide at the end of a sentence or the next cut, instead of holding to the end.</li><li>The colour preset tiles show each look on a photo, so Neutral, Warm and Cool are easy to tell apart.</li><li>After a screen take, the zooms where you clicked start unticked again, because a zoom cannot yet be moved once it is placed.</li><li>The Improve robot and the feedback bug in the title bar have new drawings.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.13.0/Rooster-0.13.0.dmg" length="32594843" type="application/octet-stream" sparkle:edSignature="ey1jZmMjT8cPMGTA/lTN84Rh0zexYNDGbvAQqC3NQKqeuJ0t+0RTG9mp+iaA60QMR6SpV459wdFHxjplPEKuAA==" />
+    </item>
+    <item>
+      <title>Rooster 0.12.0</title>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Titles and shapes now live on the canvas, where you select, move, resize and edit them in place. This release also brings lower thirds, highlight regions, a project-wide logo, timeline markers, a recorder that can pause, version history and an opt-in crash reporter.</p>
+        <h3>New</h3>
+        <ul><li>Double-click a title, or press Return, to edit its words on the canvas. A selected title has its own toolbar for font, size, colour and more.</li><li>Shapes land outlined in white with eight resize handles, and Shift keeps their proportions. New Arrow and Line shapes re-aim by dragging either end.</li><li>The Lower third tile in Elements puts a name over a role in one press, ready to type over.</li><li>Highlight Region dims everything outside a rectangle, in the preview and the export.</li><li>A still can be shown across the whole project as a logo, in one of four corners.</li><li>Timeline markers: press M to add one, and ⌥⌘. and ⌥⌘, to step between them. They never appear in an export.</li><li>Add an empty scene at the very start, for a title card, by typing / before the first word or pressing &quot;+&quot; at the head of the ruler.</li><li>The recorder can pause, and a running take can be deleted or restarted.</li><li>File ▸ Version History… lists earlier versions of a project, kept on your Mac, with Restore… on each.</li><li>File ▸ Save Frame saves the canvas at the playhead as a PNG in Downloads.</li><li>An opt-in crash reporter shows each report in full and sends nothing unless you press Send or turn on sending automatically.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Zoom the timeline with ⌘= and ⌘-, a pinch or ⌘-scroll, and fit the scene under the playhead or the selected clips.</li><li>Drag B-roll and elements between lanes, and right-click a B-roll, Elements or Music clip for Duplicate, Copy, Paste, Split at Playhead and Replace Media….</li><li>Camera and Audio only takes get Studio Voice when they land. A setting in the recorder turns this off.</li><li>After a screen take, the zooms where you clicked start ticked, and Rooster remembers if you untick them.</li><li>In the Improve chat, you can ask to smooth jump cuts or to stop smoothing them.</li><li>A licence entered on a third Mac now activates there, and the Mac that has gone longest without checking in gives up its place.</li><li>A Mac that gave up its place opens projects read-only, once it is on 0.12.0, until you activate it again.</li><li>The side panels stand as white cards beside the editor.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>The canvas no longer turns black at the very end of the timeline, or when an Improve review opens on the silence after the last word.</li><li>A blurred region pushed partly out of a zoomed or cropped picture draws its outline only over what the picture shows.</li><li>VoiceOver reads the ruler&apos;s scene badges and markers by name, and their right-click menus open.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.12.0/Rooster-0.12.0.dmg" length="32078118" type="application/octet-stream" sparkle:edSignature="foeAOVG9ajZ37mOAL8SmYFhIQgLr2D4OkJ1I3YzpVurEGfYf7X8Sa2yu66YC9DX9pXWjhVNv6o8LkoOnLYLwCw==" />
+    </item>
+    <item>
+      <title>Rooster 0.11.1</title>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>A fix for blurred regions under a zoom.</p>
+        <h3>Fixed</h3>
+        <ul><li>A blurred region under a zoom no longer draws a thin grey line along its edges. An export made with 0.11.0 keeps the line, so export it again.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.11.1/Rooster-0.11.1.dmg" length="30848806" type="application/octet-stream" sparkle:edSignature="evla39nzIvglJCgRGbrIAQ4KPiEWI1e0RUvesq2FAerF66SJWOjr3ExeohJ8oSZNl88RZICZmpoKbreVxJbMBg==" />
+    </item>
+    <item>
+      <title>Rooster 0.11.0</title>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Screen recordings gain a smoothed pointer and suggested zooms where you clicked, and you can blur part of the picture. Cut and paste in the script now moves the video too, and ⌘K searches every command.</p>
+        <p>Generated B-roll has been removed: B-roll is media you bring. Clips made by earlier versions stay in your projects, and a fal.ai key saved earlier stays in your Keychain until you remove it.</p>
+        <h3>New</h3>
+        <ul><li>The recorder&apos;s Pointer picker offers Hidden, As on screen and Smoothed by Rooster, which draws its own arrow over a whole-screen take, held still on each click.</li><li>In a screen take, Improve offers a &quot;Zoom in on the screen&quot; row for each place you clicked, unticked to start.</li><li>Blur Region, on the canvas toolbar&apos;s Effects menu, pixelates and blurs a rectangle in the preview and the export, up to eight on a clip.</li><li>⌘X and ⌘V in the script move words and their video, one undo step each.</li><li>⌘F lists every match with the words around it. Correct to rewrites the ticked matches, and Remove cuts them.</li><li>Help ▸ Search Actions… (⌘K) finds any menu command or Settings section by name and runs it.</li><li>After an export, Copy File puts the file on the clipboard.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Outside Correct mode, Left and Right step a whole word at a time, and Shift with an arrow selects whole words.</li><li>The View menu shows and hides the sidebar, timeline and side panel, and ⌥⌘1 to ⌥⌘5 open Improve, Adjust, Elements, Captions and Media.</li><li>On a 9:16 canvas, Show Safe Areas shades where a phone app&apos;s buttons and captions usually cover the video.</li><li>On the Adjust rail, Size and position, Colour adjustments and Fades fold, and stay as you left them.</li><li>A picture drawn smaller than its file is filtered first, so fine text and patterns stay clean instead of shimmering.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>The canvas no longer turns black after certain cuts.</li><li>Opening a file with Open With or a Dock drop no longer opens a second editor window that could hang Rooster.</li><li>Deleting a word no longer reaches into the start of the next one.</li><li>Remove filler words with Keep the pauses now takes every filler off the page.</li><li>Adding a border or an effect such as Eye Contact no longer darkens the preview.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.11.0/Rooster-0.11.0.dmg" length="30845408" type="application/octet-stream" sparkle:edSignature="r7thi2ICREJqfLul31YzdQ7YH2WRuqDzttn4TlcJimNUErG5sqXAKDmxp0DRXSzULyVBuxFptUuJ4mZvtogQBA==" />
+    </item>
+    <item>
+      <title>Rooster 0.10.0</title>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>On macOS 27 with Apple Intelligence on, you can now type a request in the Improve panel, such as &quot;remove the ums and shorten the pauses&quot;. The on-device model works with Rooster&apos;s own tools, nothing changes until you press Apply, and nothing leaves the Mac. The script also gains paragraph editing.</p>
+        <h3>New</h3>
+        <ul><li>A request can cut fillers, pauses, the ends, retakes and quoted words, set captions, layouts and Studio Voice, write publishing notes, and answer questions about the project.</li><li>Apply lands a whole request as one undo step. Revert takes it back, and Review opens the cuts it made.</li><li>Select words and press Ask in the selection bar, or ⇧⌘L, to attach them to a request.</li><li>On macOS 26, the composer says the chat needs macOS 27, with a button to Software Update.</li><li>Return in the script starts a new paragraph without changing a word. Backspace or forward Delete at a paragraph&apos;s edge joins it to its neighbour.</li><li>Two speakers&apos; paragraphs stay apart when you join paragraphs.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Backspace beside a word selects the whole word and a second press cuts it. Forward Delete does the same to the word after the caret.</li><li>Temperature is stronger across its range, and the Neutral, Warm, Cool and Pop tiles are easier to tell apart.</li><li>A temperature set before this release renders stronger, and an earlier White balance pick needs picking again.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Joining two paragraphs, or starting one between sentences, no longer marks the Improve list out of date.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.10.0/Rooster-0.10.0.dmg" length="30547189" type="application/octet-stream" sparkle:edSignature="rtgdPHNpMFGK2Bcvf1/RaIhaBItsZ2fIR70LknmvsJZme5GepLu9jbrkfNdstgxobibudFNYHvDuL/phR10vBA==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.9</title>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Improve is now the first row of the rail and the one place to improve the whole video. One Apply makes the cuts, renders the effects and smooths the jump cuts that are left, and one Undo takes it all back until you restore a cut in the review. Exports also keep more of what you recorded.</p>
+        <h3>Improved</h3>
+        <ul><li>The Enhance menu is now Improve, with the same shortcuts. Eye Contact and Smooth jump cuts join Studio Voice in its list, each unticked to start.</li><li>Restoring a cut in the review brings back the B-roll it took, and Redo after Undo brings back the review with your kept cards.</li><li>With nothing selected, the Visual effects &quot;+&quot; applies an effect to the main recording and shows its panel.</li><li>An effect&apos;s sheet closes on Generate and renders on its row while you edit, even if you switch projects.</li><li>Blur Background has a strength on its row, drawn as the video plays.</li><li>An H.264 export at 4K keeps the project&apos;s frame rate, and one larger than 4K keeps its size wherever H.264 can carry it.</li><li>Portrait and square takes keep the camera&apos;s frame rate, and Green Screen keeps a 5K recording at its size.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Adding a border or Eye Contact no longer shifts the preview&apos;s colour on a P3 display.</li><li>A missing Blur Background matte or Eye Contact table can be relinked from the Media panel.</li><li>Reveal Media in Finder shows the file the project is playing after an undo or a redo.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.9/Rooster-0.9.9.dmg" length="30501077" type="application/octet-stream" sparkle:edSignature="TwLtse6G6BEX6jVqfDTADWpSzf5z5DelLRRZ8zB1+bSYYyDMrOU07Ou4fzaUL/K9GoE/C5j9glk3q6kF2HbKBw==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.8</title>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Studio Voice, Eye Contact, Green Screen and Blur Background now switch on and off independently, and each renders in the background while you keep editing. Projects from earlier versions open as they were.</p>
+        <h3>New</h3>
+        <ul><li>Each applied effect is a row with its own switch under Audio effects or Visual effects. Turning one off leaves the others, and turning it back on is instant.</li><li>Each effect applies in one click from its band&apos;s &quot;+&quot;, with its progress and a Stop on its row.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Studio Voice now cleans the sound alone and leaves the picture as it was.</li><li>Green Screen and Blur Background can both be on: Green Screen wins, and switching it off shows the blurred room at once.</li><li>Eye Contact is drawn over whichever picture is showing, and its row&apos;s switch replaces the sheet&apos;s before and after.</li><li>In an older project, adjusting an effect rendered from another remakes it the new way.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.8/Rooster-0.9.8.dmg" length="30415793" type="application/octet-stream" sparkle:edSignature="SCHv1nNy76e+sssYxps9rmxf9g8n8YgjQ/2j0xAVF5GLQkXBq5n/qhLhbAnrGuB/HE/LFx4iMqm853qxAWsBDg==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.7</title>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>A tighter Green Screen edge, layouts that handle pictures in front of you, and a recorder that will not record a black take.</p>
+        <h3>Improved</h3>
+        <ul><li>Green Screen draws a tighter edge that keeps your hair, without a band of the wall&apos;s colour. Blur Background uses the same edge.</li><li>Camera now takes away pictures in front of you as well as behind.</li><li>Media and Picture with camera inset frame the scene&apos;s front-most picture, moving it behind you if needed, and take the other pictures away with an offer to restore them.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>If a connected camera sends no picture in Camera mode, Rooster retries, then says so and turns off Record rather than recording a black take.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.7/Rooster-0.9.7.dmg" length="30287992" type="application/octet-stream" sparkle:edSignature="BjYRmGgkiD9up1486AE8WxiYrUrgw8AnXBfSF2CITw/lY0CgH2EzCXIhcquk9mKvYLBR0RrxubEtCFaUOTT9Aw==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.6</title>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.9.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>The editor has a new shape: the rail on the right runs the window&apos;s full height, so the Adjust panel has room for a whole layer&apos;s settings. Captions become a layer on the canvas, and colour adjustments arrive.</p>
+        <h3>New</h3>
+        <ul><li>Captions are a canvas layer: click to select them, drag to move them, drag a corner to change the wrap. They animate with Fade, Pop, Slide up or Appear.</li><li>Colour adjustments: six presets, sliders for saturation, temperature, exposure and more, and a White balance eyedropper, on any picture or a whole scene.</li><li>Select words in the script and choose Layout to make them their own scene and arrange it in one step.</li><li>Enhance ▸ Smooth jump cuts punches in on alternate stretches between the jump cuts you tick.</li><li>The Zoom band zooms in on the picture over selected words, and the video can fade in from and out to black.</li><li>The canvas offers a custom size.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The Media layout replaces Side by side and puts the picture in a large panel beside you.</li><li>Camera now takes away the pictures behind you, with an offer to restore them.</li><li>Escape deselects.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Resizing or moving yourself no longer jumps at a cut.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.6/Rooster-0.9.6.dmg" length="30255389" type="application/octet-stream" sparkle:edSignature="uk3Ng4FWaHsI5OwIKLfWXonHR2Pj1DeUOYI/82orVdS7w14QejC4BTtVavcPErGJd5WwK9vYOQeFodGCV+3SCw==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.5</title>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Deleting the last clip now empties a project instead of being refused, and a video with no sound says so.</p>
+        <h3>Improved</h3>
+        <ul><li>Deleting the last clip of the main recording returns the project to its new-project screen. The file stays in Media, and one undo brings everything back.</li><li>A video with no audio track says &quot;This video has no sound&quot; and offers Record or Start typing, instead of a transcription retry that could never succeed.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.5/Rooster-0.9.5.dmg" length="29433843" type="application/octet-stream" sparkle:edSignature="xsQkbHJ1sgBbcnpCVtgA9jgY8vF5mAd2U9FyzzToZUoJ4gDD92DyglSF/HXYNTJhXutMabV8znIGhvAeZcTYDQ==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.4</title>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster now needs a licence. Every Mac without one starts a 14-day free trial of the whole application the first time it opens this version, with no card and no account. If you were already using Rooster without a key, your 14 days start now.</p>
+        <p>When the trial or a subscription ends, every project still opens and plays, and nothing is deleted. Editing, recording and export wait for a licence: choose See Plans, or enter your key in Settings ▸ Licence.</p>
+        <h3>New</h3>
+        <ul><li>A strip at the top of the window counts down the days left in the trial.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>A recording that finishes after Rooster stops allowing changes is kept as a new project rather than lost.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.4/Rooster-0.9.4.dmg" length="29418364" type="application/octet-stream" sparkle:edSignature="MxRudqjEaafEJjShBzVybEQGJErtSyaC80wY0QKuwrgOHiUEaQzQdW6IXX1ikSI5/JQOQoEYW9hYsOAAIdvzBg==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.3</title>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>You can now enter your licence key in Settings ▸ Licence. Rooster does not require one yet and nothing stops working without one, but a coming update will, and a notice at the top of the window says so until you dismiss it.</p>
+        <h3>New</h3>
+        <ul><li>Settings ▸ Licence activates the key from your Creem receipt. A licence covers two Macs, and Deactivate This Mac frees a place for another.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Delete now deletes a clip selected on the timeline.</li><li>Green Screen has moved to ⌥⌘G, so ⇧⌘G is only Find Previous, as in other Mac apps.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Typing quickly into the Export sheet&apos;s description no longer loses keys.</li><li>With a background picture set, Cover works, and covers and dropped media land in front of the speaker rather than behind.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.3/Rooster-0.9.3.dmg" length="29360536" type="application/octet-stream" sparkle:edSignature="fWtgM3MEp9tnQLNgQCppX3ZLh6hyUAg8n3skAXmy9Fha8e7Ez0RiJRh2QyAv2n9WklqH+L3RNoxlvktn6xOYDg==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.2</title>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Help now opens your subscription at Creem, and Green Screen holds on to a speaker in front of a bright window.</p>
+        <h3>New</h3>
+        <ul><li>Help ▸ Manage Subscription opens Creem&apos;s customer portal, to cancel, change your card or find an order. Sign in with the email you bought with.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Magenta on the canvas and timeline now marks only what you have selected. Snap guides, scene boundaries and transition tabs are drawn dark, edged in white.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Green Screen no longer loses a speaker with a bright window behind them for up to a second and a half.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.2/Rooster-0.9.2.dmg" length="29121423" type="application/octet-stream" sparkle:edSignature="WVqsVpG2yyVATsdUngi2aWqk94TiRyMphjyrYUp9nTl4r6Y6Lh9p+lEFbGwfiYmwcccSRRCHr8YP19ofN5ZHBA==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.1</title>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>A fix for the first time Rooster opens on a Mac.</p>
+        <h3>Fixed</h3>
+        <ul><li>The project list opens at its proper width on a Mac that has never run Rooster, instead of breaking &quot;New project&quot; across several lines.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.1/Rooster-0.9.1.dmg" length="29162037" type="application/octet-stream" sparkle:edSignature="CutBtm+hJkUXfowwvhPO7FQBuFzHdBr3LHWphcTxwHV2HSZEmxosoks1H9XrWC0zStJzFsxYFq0Sc9TeKKESAQ==" />
+    </item>
+    <item>
+      <title>Rooster 0.9.0</title>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>The first beta build, and a month of work since 0.8.1. The script gains scenes and a Correct mode, Improve this video finds repeated words and false starts for you to review, and recording keeps more of what you meant to keep.</p>
+        <h3>New</h3>
+        <ul><li>Type &quot;/&quot; anywhere in the script to start a new scene, and join scenes with a cross dissolve.</li><li>Correct mode fixes a word in the transcript without touching the video, and a glossary respells names in every new transcript.</li><li>Improve this video lists every repeated word and false start it would cut, with Studio Voice in the same step, before anything changes.</li><li>Projects can go in folders, and search reads transcripts.</li><li>With Apple Intelligence on, Export offers a description and timestamped chapters for wherever you publish.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Select several clips with a band and delete them together.</li><li>Change a layer&apos;s order from the canvas toolbar or a right-click.</li><li>Give a range of words its own volume, and apply a caption style to one scene or to all of them.</li><li>Blur Background is an effect of its own.</li><li>The teleprompter and camera bubble stay on screen when you switch to another app.</li><li>Help opens rooster.cam/help, and feedback sent from the title bar can carry an image.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>A take cut off by a crash is recovered at the next launch.</li><li>A camera take that fails now says why.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.9.0/Rooster-0.9.0.dmg" length="29161302" type="application/octet-stream" sparkle:edSignature="hqLV74Ih+oCCAiu7FtDb5lZhZhBtCuneb/XUu4EZLPvGG+b4zrSLOukuO+D691aJhMvaYio9GaadmHlkJbMIBA==" />
+    </item>
+    <item>
+      <title>Rooster 0.8.1</title>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>The first Rooster that updates itself. If you are reading this inside Rooster, that is the change: 0.8.0 found this release on its own, checked our signature on it and offered it to you.</p>
+        <p>Nothing else is different. 0.8.1 was published to prove the update path end to end rather than assume it.</p>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.8.1/Rooster-0.8.1.dmg" length="25133405" type="application/octet-stream" sparkle:edSignature="7gsXshhenhnZXf77OSr2fnkG4UM3yD2HOGb1UT17HAc4VbDuhWDAv8GcGgg7ojPqIKqakU6ZoMbLEjvKEsoJDg==" />
+    </item>
+    <item>
+      <title>Rooster 0.8.0</title>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>The first Rooster you can download and open. Record, or import what you already have, and Rooster transcribes it on your Mac, with no account, no upload and no key. Cut the transcript and the video is cut with it.</p>
+        <p>This is early software, not finished, and there is nothing to buy yet. What this release is really for is that Rooster now updates itself, so the next fix reaches you without another download.</p>
+        <h3>New</h3>
+        <ul><li>Captions, B-roll over a passage, and H.264 or HEVC export to Downloads.</li><li>Studio Voice, Eye Contact and Green Screen run on your Mac. Nothing leaves it unless you connect a cloud provider and ask it to.</li><li>Rooster can now update itself.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v0.8.0/Rooster-0.8.0.dmg" length="25133368" type="application/octet-stream" sparkle:edSignature="vLCCQpjQmz6uFfjktOcPFFIMkM6modCVFa2oiN+ncq7NOqKor6yfr7k8afIvfZG+4N60CzwQl3W83+T3aXzOBw==" />
+    </item>
+  </channel>
+</rss>
