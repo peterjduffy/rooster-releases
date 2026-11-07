@@ -6,6 +6,19 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.2.1</title>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.2.1 makes checking for updates more reliable, and lets the arrow keys move through the script a word at a time.</p>
+        <h3>Improved</h3>
+        <ul><li>Rooster now checks for updates on GitHub, where its downloads already are, so the website&apos;s traffic protection can no longer mistake a check for an attack.</li><li>In the script, Right stops at the end of a word and then at the start of the next, and Left retraces the same stops.</li><li>Up and Down move through the script a line at a time and land between words.</li><li>The arrow keys also stop before punctuation attached to a word, such as a comma or a full stop.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.2.1/Rooster-1.2.1.dmg" length="38976460" type="application/octet-stream" sparkle:edSignature="xo7aPYIdKvf+1w3cJTPm+uOgcj2vqhfN0O2UdCMmNMN2JT6FRZXSUWAyIbihcZ7XOWNCeYJwrv3InNqHx2//Bg==" />
+    </item>
+    <item>
       <title>Rooster 1.2.0</title>
       <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>34</sparkle:version>
