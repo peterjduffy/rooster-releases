@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.3.0</title>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.3 makes every layout work on a Screen + Camera recording. Camera, Screen, Media and Picture arrange your camera and your screen, and Intro and Outro hide the camera or put it in their panel.</p>
+        <p>There is a new Picture layout that shows a picture whole, and when a picture covers you, Rooster offers to put you in the corner or beside it.</p>
+        <h3>New</h3>
+        <ul><li>Picture is a new layout: it shows the scene&apos;s front picture whole and centred over the background while your voice plays on.</li><li>On a Screen + Camera recording, Camera shows you full frame, Screen puts you in a corner, Media sets you beside the screen and Picture shows it alone.</li><li>On the Screen layout the camera can go in any of the four corners from Transform &gt; Position, and the scene still reads Screen.</li><li>When a picture you select covers you, its card offers to put you in the corner or beside the picture.</li><li>When the chat or an AI app places a picture that covers you, its reply says so and offers the same two layouts.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Every Layout menu reads Camera, Screen, Media, Picture, then Intro and Outro. Picture with camera inset is now called Screen.</li><li>On a Screen + Camera recording, Intro and Outro hide the camera or frame it in their panel, so no camera sits over a card.</li><li>The Layout chip shows on a one-scene Screen + Camera recording, and reads Layout rather than Custom on a scene arranged by hand.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>The Duck under speech caption now says what it does: music stays down between sentences and rises in longer pauses.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.3.0/Rooster-1.3.0.dmg" length="38052947" type="application/octet-stream" sparkle:edSignature="O89vqjFvLh+LLL7+LzHChkiDs+3bbehVicOkKk8jxhcolZm8OHsLS8nTfhLqwBCU5RcaO1iSfXQGh6N5TcBwDQ==" />
+    </item>
+    <item>
       <title>Rooster 1.2.1</title>
       <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>35</sparkle:version>
