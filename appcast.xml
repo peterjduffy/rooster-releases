@@ -6,6 +6,23 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.4.0</title>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.4 adds a LinkedIn 4:5 canvas shape, the tall frame feeds favour, and shows an AI app in Settings as soon as it connects.</p>
+        <h3>New</h3>
+        <ul><li>The canvas shape menu has a LinkedIn 4:5 row, also right for Instagram and Facebook feeds, beside Landscape, Portrait and Square.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Settings &gt; New projects shows the Logo and Text rows only once you have saved a logo or a text look.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Settings &gt; AI Apps names a connected AI app as soon as it starts with Rooster open, rather than only after its first request.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.4.0/Rooster-1.4.0.dmg" length="38027518" type="application/octet-stream" sparkle:edSignature="9mDR2YxSxfTvauUl0dmJbPIEs4xHoabWW4bKd9nYK2gjROQT46hwwmKTAjeHeEdPXCnDQ/K6Nhnb9ZahfPj7CA==" />
+    </item>
+    <item>
       <title>Rooster 1.3.0</title>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>36</sparkle:version>
