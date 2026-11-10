@@ -6,6 +6,23 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.5.0</title>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.5 lets you reframe a picture inside its frame on the canvas, and changing the canvas shape now fills the new frame with the speaker, centred on their face, rather than shrinking the take.</p>
+        <h3>New</h3>
+        <ul><li>Double-click a picture on the canvas to reframe it inside its frame - slide it and zoom it closer or wider while the frame stays put.</li><li>The recorder&apos;s Format menu offers LinkedIn 4:5, the same shapes the canvas menu lists.</li><li>The teleprompter says which project its script is saved with, or that it is not saved to a project yet.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Changing the canvas shape fills the new frame with a speaker you never arranged, rather than shrinking the take into bands.</li><li>Camera&apos;s fill on a canvas of another shape puts the speaker&apos;s face at the middle, so a portrait frame no longer cuts someone sitting off-centre.</li><li>Settings &gt; AI Apps says Connected now on a connected app&apos;s row, and the chat answers whether an AI app is connected from Rooster&apos;s own state.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>A long pause after a word whose timing runs partway into the silence is now offered in the Improve panel, the chat and AI apps.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.5.0/Rooster-1.5.0.dmg" length="38163327" type="application/octet-stream" sparkle:edSignature="J7ifPIpF0/kFhuTEBqSpmd0hp3lTcExPsBY+BmLKAhC4WbYHs9mGY62mH0UzK6SbeZbZUPV4qaLilmqtrZMmAQ==" />
+    </item>
+    <item>
       <title>Rooster 1.4.0</title>
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>37</sparkle:version>
