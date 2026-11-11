@@ -6,6 +6,21 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.5.1</title>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.5.1 makes Even out volume steadier: it aims its raises at your voice rather than the hum or murmur between phrases, and it changes the level in the pauses rather than over your words.</p>
+        <h3>Improved</h3>
+        <ul><li>Even out volume leaves background hum, mic rumble and a low murmur between takes alone in far more places, and raises the speech instead.</li><li>Even out volume makes its level changes in the pause between phrases, so the last words before a quiet stretch are no longer louder or dipped.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Asking the chat to check your audio levels in the editor now points to Even out volume, not to recorder controls that are not on screen.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.5.1/Rooster-1.5.1.dmg" length="38221699" type="application/octet-stream" sparkle:edSignature="XZoMEZFrqZlk2Luf+xPa16jme1K+pNeI3N8iscBetj7pChza2r9JewXe3zSi9J79T5W5qnEHQm8oQKmiq8d4Cg==" />
+    </item>
+    <item>
       <title>Rooster 1.5.0</title>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>38</sparkle:version>
