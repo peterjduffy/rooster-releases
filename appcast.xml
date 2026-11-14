@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.6.0</title>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.6.0 lets you run the chat in Improve on Claude with your own Anthropic key, chosen in Settings &gt; AI on macOS 27. Each ask sends text only; your video and its sound stay on your Mac.</p>
+        <p>It also tidies what a cut leaves behind, fits a new take to your project&apos;s shape, finds long pauses from where your voice stops, and takes Eye Contact out of beta.</p>
+        <h3>New</h3>
+        <ul><li>Choose Claude, with your own Anthropic key, for the chat in Improve, in Settings &gt; AI on macOS 27. Each reply names who answered: Claude, this Mac, or Rooster itself.</li><li>The Screen layout&apos;s camera inset comes in Small, Medium or Large, from Transform &gt; Size on the canvas card.</li><li>A fade at the video&apos;s start or end now has a mark on the timeline that opens its setting.</li><li>Each Layout menu row shows a small picture of its arrangement.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>A take added to a 4:5, square or portrait project fills the frame, and the recorder starts at the canvas&apos;s shape. A portrait take on a 16:9 project fits.</li><li>Camera&apos;s fill centres on two speakers when the frame holds them both, and on the camera of a Screen + Camera take.</li><li>A word a cut leaves at the start of a sentence takes a capital in the script and captions, and loses it if you restore the cut.</li><li>Long pauses are measured from where your voice stops, and each row shows how long the pause will play.</li><li>Improve counts cuts the same way on its button, its review and its summary, and the chat&apos;s saving matches the Apply button&apos;s.</li><li>The pointer shows an open hand over anything on the canvas you can drag.</li><li>The sidebar&apos;s Record starts a new project even when one is open.</li><li>Adding one file opens its page in the Media rail, and a picture&apos;s clip on the timeline shows its file name.</li><li>A new recording is named once, by its title, instead of being renamed in front of you.</li><li>The chat answers more project questions, says when there is nothing to clean up, picks Picture for just a picture, and points to the controls it cannot reach yet.</li><li>AI apps reconnect by themselves after Rooster reopens.</li><li>Eye Contact is out of beta.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Undo all in Improve&apos;s review no longer brings back cuts you made by hand.</li><li>A cut or moved word no longer leaves its label on the timeline.</li><li>An intro or outro on a one-scene video covers its opening or closing sentence, not the whole video.</li><li>A scene whose picture covers the speaker reads Picture on top everywhere, not Camera.</li><li>Undo straight after applying a chat request undoes the change instead of putting your words back in the box.</li><li>Pressing the captions band selects the captions, so Delete removes them rather than a video clip.</li><li>Menus across the canvas, recorder and timeline now show their ticks and icons on macOS 27.2.</li><li>A selection on the script&apos;s first line shows its bar above the line, not over the next one.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.6.0/Rooster-1.6.0.dmg" length="38880939" type="application/octet-stream" sparkle:edSignature="/t3kVC0hXD2qJ/NVbgj03RJyZxQDTyhddXkYzQAbcZQlcbFlz/treyR6NfaOhLmRyqhZeCc4ywyYDD05EgfWDQ==" />
+    </item>
+    <item>
       <title>Rooster 1.5.1</title>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>39</sparkle:version>
