@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.7.0</title>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.7.0 puts a sound effect over your music on a lane of its own, lands new music under your voice, and lets you run the chat in Improve on ChatGPT with your own OpenAI key.</p>
+        <p>Rooster now shares usage data unless you turn it off: which features you use and when, such as the first time you use Eye Contact or captions. It never includes your recordings, transcripts or file names. The switch is in Settings &gt; Diagnostics &gt; Share usage data, and if you turned it off before, it stays off.</p>
+        <h3>New</h3>
+        <ul><li>Add a short sound, such as a ding or a whoosh, over music: it goes on a sound lane of its own below the Music lane, at its own level.</li><li>Choose ChatGPT, with your own OpenAI key, for the chat in Improve, in Settings &gt; AI on macOS 27.</li><li>Correct a word everywhere it appears in one press, with Correct both or Correct all beside Correct.</li><li>A new install&apos;s welcome screen has a Share usage data switch, on by default, under the headline &quot;Edit video the way you edit text&quot;.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Music you add lands at a level under your voice, and the first music on the Music lane turns its ducking on.</li><li>A short sound no longer lowers the loudness of a whole matched export, and an export without loudness matching dips where it would clip.</li><li>A sound clip on the timeline shows its file name, and lanes out of view are counted on a plate that steps to them when pressed.</li><li>Layer lanes on the timeline are shown whole, so each lane&apos;s name stays readable.</li><li>A title asked for at the start, in the chat or from an AI app, goes over the picture instead of before it.</li><li>One Undo takes out a recorded take together with its automatic Studio Voice.</li><li>A title, shape or picture moved on the canvas is named for what moved in the Edit menu&apos;s Undo.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>A recording of one app&apos;s window is fitted whole and centred in the frame, instead of cropped.</li><li>A text box&apos;s words stay visible while you edit them, and typing into a new box replaces its placeholder wherever the caret is.</li><li>The Improve rail&apos;s badge counts the same as the Apply button.</li><li>A cut mark&apos;s header says how much the mark holds, not how much the last cut removed.</li><li>A timeline hidden and shown again no longer seeks to the wrong time when its ruler is clicked.</li><li>The card under a picture says Hidden behind only when the clip drawn at that moment covers it.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.7.0/Rooster-1.7.0.dmg" length="39176167" type="application/octet-stream" sparkle:edSignature="0naP7TRWp3FSSf5li2D9LNIvHQeZcFi0a/erRM8eMwAlhzd/x/eyRK9bLylIhaQ+n+vbrf2kDXMc+jcHRDDJBQ==" />
+    </item>
+    <item>
       <title>Rooster 1.6.0</title>
       <pubDate>Sat, 14 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>40</sparkle:version>
