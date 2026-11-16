@@ -6,6 +6,21 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.8.0</title>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.8.0 lets you choose what the chat in Improve runs on from the chat itself, and calls the model on your Mac by its name, Apple Intelligence.</p>
+        <h3>New</h3>
+        <ul><li>Choose what the chat in Improve runs on from a menu under the field you type in: Apple Intelligence, Claude or ChatGPT, on macOS 27.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The chat&apos;s own model is named Apple Intelligence under the chat and in Settings &gt; AI, where it read On this Mac or This Mac.</li><li>In the chat&apos;s menu, Claude or ChatGPT with no key connected opens Settings &gt; AI to connect it, and Apple Intelligence says why where it cannot run.</li><li>Settings &gt; AI says what each of its two groups does: what answers Rooster&apos;s chat, and the AI apps that edit your projects from their own window.</li><li>On macOS 26, Settings &gt; AI says the chat needs macOS 27, a free update, and opens Software Update.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.8.0/Rooster-1.8.0.dmg" length="39168380" type="application/octet-stream" sparkle:edSignature="97fFNSHU9663xMZH+dDdAWEZc7c+AlU/EM/fmXldPnMRD2cef/lxROz30Kd1DosuN5Ra+YFkM6zKNoxH3aekCA==" />
+    </item>
+    <item>
       <title>Rooster 1.7.0</title>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>41</sparkle:version>
