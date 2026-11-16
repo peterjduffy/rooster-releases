@@ -6,6 +6,19 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.8.1</title>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.8.1 makes Settings &gt; AI easier to follow: it is the first tab, and it says plainly what connecting the Claude or ChatGPT app does.</p>
+        <h3>Improved</h3>
+        <ul><li>Settings opens on AI, now the first tab.</li><li>The AI apps group in Settings &gt; AI is headed &quot;Use Rooster from Claude or ChatGPT (MCP)&quot;, and gives an example of what to ask the app.</li><li>The Settings window is taller, and shows its scroll bar for a moment when it opens or the tab changes, so it is clear there is more below.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.8.1/Rooster-1.8.1.dmg" length="40195641" type="application/octet-stream" sparkle:edSignature="WiI5AjD5iWjqvklfo9/njPcr4FfDJukofi9m2Cp6xWwPMdRhL4AJjTV/vV7cYJFw5V7QovyF5hRtY/uf/mKxDA==" />
+    </item>
+    <item>
       <title>Rooster 1.8.0</title>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>42</sparkle:version>
