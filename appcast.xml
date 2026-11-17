@@ -6,6 +6,21 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.8.2</title>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.8.2 says where a key for the chat comes from, shows the chat&apos;s bold words as bold, and fixes a very short clip that could sit small in the middle of the frame.</p>
+        <h3>Improved</h3>
+        <ul><li>Settings &gt; AI says where a Claude or ChatGPT key comes from and which Claude plans include credit for one, with a link to set it up.</li><li>The chat in Improve shows words it marks as bold in bold, where it showed the asterisks around them.</li><li>Settings &gt; AI shows the AI apps switch, its status and each app&apos;s Connect button as one group.</li><li>Connected AI apps are told a zoom&apos;s or graphic&apos;s number changes when one before it is added, removed or moved, and to look it up again before using it.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>A clip of the shortest length is laid out with its neighbours when the canvas shape changes or Camera is pressed, instead of sitting small mid-frame.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.8.2/Rooster-1.8.2.dmg" length="39204767" type="application/octet-stream" sparkle:edSignature="6aNqN8FF8UuBSvBjelDENXJjS4uS4xxeuz8lYHmRFXwP6v/KQl98c7pXlEyLz4naaOIYMUoeNNbgpRgTO5W3Bw==" />
+    </item>
+    <item>
       <title>Rooster 1.8.1</title>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>43</sparkle:version>
