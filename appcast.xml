@@ -6,6 +6,23 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.9.0</title>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.9.0 turns Improve into one list of switches and gives the chat its own tab. Each clean-up and effect is a row you switch on or off, long pauses can be shortened at the pace you choose, and on macOS 27 jump cuts can be smoothed.</p>
+        <h3>New</h3>
+        <ul><li>Improve is one list of switches: switch a row on to apply it as one undo step, or off to put back what it cut.</li><li>Apply all, in the Tighten the edit heading, removes filler words, long pauses, silence at the ends and retakes in one step.</li><li>Click an off row&apos;s name to see what it found, and Skip or Include each item.</li><li>The chat has its own tab in the side panel. Ask for a Change (Shift-Command-L) opens it ready to type.</li><li>Shorten long pauses has a pace: Natural, Balanced, Tight, or Custom with your own lengths.</li><li>On macOS 27, jump cuts can be smoothed with in-between frames made on your Mac, from Improve, the Improve menu, a cut mark in the script or the chat.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Studio Voice keeps the cleaned-up voice, so switching it off and on again skips the clean-up pass.</li><li>Studio Voice names each step while it works instead of showing Starting.</li><li>The teleprompter remembers its type size, speed, mirroring, theme and scrolling between launches.</li><li>The Glossary in Settings shows one row per term, with Add in the header.</li><li>Asking the chat for two changes at once does both, or says which one it left.</li><li>The chat&apos;s undo step names what it did, such as Remove Filler Words.</li><li>Switches use your Mac&apos;s accent colour.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Some joins between clips no longer show a blank frame or a moment of silence.</li><li>Returning to a project after an export no longer measures its audio again.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.9.0/Rooster-1.9.0.dmg" length="39905340" type="application/octet-stream" sparkle:edSignature="AJasgVv1cSmkpY4MacgYX3Nh8uFch7F1ejj+FMIdNyi4oVYuAsDoW2eqhN+WjAmsQ38/3hJg48IhB6cQnaMbCw==" />
+    </item>
+    <item>
       <title>Rooster 1.8.2</title>
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>44</sparkle:version>
