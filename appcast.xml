@@ -6,6 +6,21 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.10.0</title>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.10.0 makes Improve easier to read before it has run, and fixes a moved Eye Contact layer and a project that could sit measuring its audio for good.</p>
+        <h3>Improved</h3>
+        <ul><li>Before a run, Tighten the edit lists every clean-up, each marked Not checked yet, so a new project no longer shows an empty panel.</li><li>A greyed item in the Visual effects and Audio effects lists says why it is greyed when you hover over it.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>A layer with Eye Contact on, moved or stretched inside the canvas, no longer smears its edge across the background.</li><li>A project whose first take was cut away no longer stays on measuring its audio, so Improve and the chat can run.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.10.0/Rooster-1.10.0.dmg" length="39906452" type="application/octet-stream" sparkle:edSignature="lgLnVmQgichL5X050eIdf1Q9qj8MAAOk9lZNeaWpUplrBbylUPKekgqJyPa2an59Ar6cTcf6vnLUFwy5vq3SCA==" />
+    </item>
+    <item>
       <title>Rooster 1.9.0</title>
       <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>45</sparkle:version>
