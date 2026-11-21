@@ -6,6 +6,22 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.11.0</title>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.11.0 lets the chat suggest what to cut from what you say. On Claude or ChatGPT, ask what to improve and it points out throwaway words at the start or end of a take, with a button that cuts them in one press.</p>
+        <p>The selection over the picture is now lavender, and the teleprompter opens short at the top of the editor, covering far less of the picture.</p>
+        <h3>New</h3>
+        <ul><li>On Claude or ChatGPT, asking the chat what to improve suggests cutting throwaway words at the start or end of a take, each cut one press away.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The selected layer&apos;s outline and handles, the script selection and the selected scene are drawn in lavender.</li><li>The teleprompter opens short, at the top of the editor, leaving the lower two thirds of the camera preview clear.</li><li>Script lines stop at about 70 characters, centred, so a wide window is easier to read.</li><li>The welcome screen has one filled New project button.</li><li>An empty project&apos;s recorder bar no longer says where the take will go.</li><li>A caption style changed from its preset is named as adjusted on the Generate button, such as Classic, adjusted.</li><li>A short take&apos;s suggested description keeps to what the take says.</li><li>Editing a glossary term opens its fields in its own row.</li><li>The chat no longer repeats a Studio Voice line above a button that does the same.</li><li>The Help menu no longer links to the roadmap board.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.11.0/Rooster-1.11.0.dmg" length="39976948" type="application/octet-stream" sparkle:edSignature="fRHzylCEgSEg0YeSoYDEZWCsJsWFDLrJc1cFzcPW+m+vfaj6sbJPIImtoWq/3VVq08gaXKpN1E1Rf0c3gZ82Dw==" />
+    </item>
+    <item>
       <title>Rooster 1.10.0</title>
       <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>46</sparkle:version>
