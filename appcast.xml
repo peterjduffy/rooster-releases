@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.11.1</title>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>1.11.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.11.1 can move the recordings Rooster made for a project to the Trash when you delete the project or its folder. It also remembers where you last saved, so exports and recordings go back to the same folder.</p>
+        <p>The recorder now shows a take finishing the moment you press Stop, and picks up a camera or microphone plugged in while it is open.</p>
+        <h3>New</h3>
+        <ul><li>Deleting a project or a folder of projects can also move the recordings Rooster made for them to the Trash. Imported files and takes another project uses are kept.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Export opens in the folder your last export went to, and a recordings folder picked in the recorder is kept after Rooster restarts.</li><li>The record control shows a spinner the moment Stop is pressed, or when a take ends on its own, and the time stops there.</li><li>A camera or microphone plugged in while the recorder is open appears in its lists straight away.</li><li>Once an export succeeds, Close becomes the export sheet&apos;s main button.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Trim silence at the ends now trims the end of a take whose last word the transcript stretched over the silence after it.</li><li>The delete-folder sheet no longer cuts off the name of the button that deletes the folder and its projects.</li><li>Smoothed cuts are made again, with a guard against a rare first frame that had part of the picture out of place.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.11.1/Rooster-1.11.1.dmg" length="40074732" type="application/octet-stream" sparkle:edSignature="vd0PK1ZKMW6OPCHJ83pb7ys7Lo2nCZngLppmZ2GQwoBAiWyn9BBY39WwYfWcZxMbyTR3tD52U5frRbRU3HMFBg==" />
+    </item>
+    <item>
       <title>Rooster 1.11.0</title>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>47</sparkle:version>
