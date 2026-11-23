@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.11.2</title>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>1.11.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.11.2 shows Studio Voice&apos;s clean-up as a real percentage, and deleting the whole script now empties the project so you can record again. Effects follow the Adjust panel&apos;s Apply to, so Green Screen or Studio Voice can go on a single scene.</p>
+        <p>Script cuts are cleaner around words the transcript timed badly, and this release carries a week of smaller fixes from making real videos.</p>
+        <h3>New</h3>
+        <ul><li>Visual and audio effects follow Apply to in the Adjust panel, so an effect can go on one scene instead of the whole video.</li><li>The teleprompter narrows to 320 points with a compact toolbar, so the text can sit close to the camera.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Studio Voice shows how far its clean-up has got as a percentage, rather than a running clock.</li><li>Selecting the whole script and pressing Delete empties the project, video included, ready to record again.</li><li>Deleting or cutting script text that reaches a take&apos;s first or last word also removes the wordless video before or after it.</li><li>An intro the chat or an AI app adds lasts at least 3 seconds, long enough to read.</li><li>An outro the chat or an AI app makes shows only the words it was given, with no placeholder lines.</li><li>With Shorten long pauses on, putting back retakes also shortens the long pauses inside them.</li><li>The record control stays in place when a take starts, so Stop is where Record was.</li><li>A free licence shows in Settings as free, with the day it ends, rather than as a subscription.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Deleting a word no longer clips the word before it, or takes a short word beside it, where the transcript&apos;s timings were off.</li><li>Deleting two takes one after the other no longer leaves a stray breath between them.</li><li>The script page no longer draws paragraphs on top of each other after a scene is added.</li><li>Transcripts no longer end some words with a doubled full stop.</li><li>Picking the weight a caption style already uses no longer marks the style as changed.</li><li>Removing a camera&apos;s border no longer squares its corners when you switch layouts.</li><li>Adding Text from Elements now reads Undo Add Text, and the canvas Crop button no longer wraps onto two lines.</li><li>Delete Project now counts every file a take recorded.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.11.2/Rooster-1.11.2.dmg" length="40949884" type="application/octet-stream" sparkle:edSignature="98t9bLLxZcj+FetsB4hDNaQ2AlKaw3ryjICTqyQm9tosb9gsWi1DhgVO3RD7YJA+dN+ESMtr24jkqyYk460eBw==" />
+    </item>
+    <item>
       <title>Rooster 1.11.1</title>
       <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>48</sparkle:version>
