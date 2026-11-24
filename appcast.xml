@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.11.3</title>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>50</sparkle:version>
+      <sparkle:shortVersionString>1.11.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.11.3 renders Green Screen much faster, and shows the render on your picture in the canvas while it works. When the chat is missing the words for a title or lower third, it now asks for them instead of placing a placeholder.</p>
+        <p>Script cuts leave no stray sound behind, and this release carries more fixes from making real videos.</p>
+        <h3>New</h3>
+        <ul><li>While Green Screen, Blur Background or Eye Contact renders, the canvas shows its progress on your picture, with a Stop button.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>Green Screen and Blur Background render several frames at a time, so a long take no longer takes many minutes.</li><li>The chat asks for the words when a title card, lower third or intro is requested without any, rather than placing placeholder text.</li><li>Captions stay off intro and outro cards.</li><li>The layout with you in a corner over a picture is now called Corner.</li><li>The teleprompter opens taller, with lines lit further ahead of the reading marker.</li><li>The recorder offers only the qualities the chosen camera can record.</li><li>Choosing a picture layout in a scene with no picture explains how to add one.</li><li>Restoring a single retake shortens the long pause inside it when Shorten long pauses is on.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Deleting a word no longer leaves a fragment of its sound playing.</li><li>Deleting the first or last words of a take that was split and moved no longer cuts footage elsewhere.</li><li>Cutting and pasting a word no longer leaves a clip too short to show in any scene.</li><li>An effect switched on in one scene is now read per scene by the Scene panel, the hidden-picture note and the chat.</li><li>Mac video effects and Mac camera effects open the macOS panel again.</li><li>Re-entering an ended free licence&apos;s key now says the free licence has ended.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.11.3/Rooster-1.11.3.dmg" length="40251303" type="application/octet-stream" sparkle:edSignature="Pa9+bH36OCvPRhHwjoBmQvPIjjHTyee2YZftpBUK791Fr/qBuC8BGg8sZbNbnRKCqTE7fPJ2UMG1Bk5fyROCAw==" />
+    </item>
+    <item>
       <title>Rooster 1.11.2</title>
       <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>49</sparkle:version>
