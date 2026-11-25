@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.11.4</title>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>1.11.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.11.4 adds a Zoom button to the script selection bar, a colour for each word of a text layer with a text shadow, and a Handwritten text style. An opening intro, and the chat&apos;s title, now draw on the video&apos;s first frame.</p>
+        <p>Script cuts are judged by how they sound, and this release carries more fixes from making real videos.</p>
+        <h3>New</h3>
+        <ul><li>Select words in the script and press Zoom on the selection bar to zoom in on the face or the pointer.</li><li>Text layers take a colour for each word and a text shadow.</li><li>Text layers have a Handwritten tile, set in a print-style handwriting face, and a Drift effect.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>An opening intro, and the chat&apos;s title, show on the video&apos;s first frame instead of after it.</li><li>A Full frame intro with a long word shrinks to fit inside the title-safe width.</li><li>An outro the chat makes ends about a second after the last word.</li><li>A follow-up in the chat now reaches the graphic it refers to.</li><li>Help answers point at the Improve row you asked about, whichever engine answers.</li><li>A zoom made next to an identical zoom continues it across the join.</li><li>Finder can put back a recording that Rooster moved to the Trash.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Removing several words at once no longer leaves the sound of a word marked inside silence playing.</li><li>Rooster now decides whether a cut removed a word by how it sounds.</li><li>Pasting after a word marked inside silence puts the words where you pointed.</li><li>Putting words back re-applies the effects that were on for them.</li><li>Word Colour shows the last colour you picked, and a word&apos;s colour is the one in the Colors panel.</li><li>A hand cut that closes a small scrap into an Improve cut no longer takes the cut away from Improve.</li><li>Undo all in a retakes review shortens the pauses inside the restored takes again.</li><li>The timeline&apos;s lanes settle on a whole lane after a scroll.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.11.4/Rooster-1.11.4.dmg" length="41058771" type="application/octet-stream" sparkle:edSignature="KCsClNKNyR36sfEMzKLv4Gd67QBpqQjM8+ttS9fqhLAGzu8bxMO31YcSb+BzddrhJzUsPi2ikKQL6ENOFTJsDw==" />
+    </item>
+    <item>
       <title>Rooster 1.11.3</title>
       <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>50</sparkle:version>
