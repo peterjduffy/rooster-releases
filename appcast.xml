@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.11.5</title>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>1.11.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.11.5 makes zoom easy to find: a Zoom band on the Adjust rail and Improve &gt; Add Zoom. Green Screen and Blur Background now show the frame under the playhead while they render, and the recorder says Share screen beside its screen glyph.</p>
+        <p>Captions now keep a word you can still hear, and this release carries more fixes from making real videos.</p>
+        <h3>New</h3>
+        <ul><li>The Adjust rail has a Zoom band with a + that zooms the sentence at the playhead, and Improve &gt; Add Zoom does the same from the menu bar.</li><li>While Green Screen or Blur Background renders, the canvas previews the effect on the paused frame.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The recorder says Share screen beside its screen-sharing glyph, so Screen + Camera is easy to find.</li><li>Zoom sits above the looks on the Adjust rail.</li><li>Blur Background&apos;s strength follows Apply to, so one scene can be blurred more than the rest.</li><li>An effect sheet opened for one scene says when its settings change every scene that has the effect.</li><li>Text colour colours just the selected words while you type in a text box.</li><li>Asking the chat to open the video with a title card puts it at the start.</li><li>On Claude and ChatGPT, the chat also acts on a second feature a message names, such as Studio Voice and the captions together.</li><li>A cut that went round a word&apos;s sound shows as one cut mark, restored in one step.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Captions no longer drop a word the script page still shows after a cut.</li><li>The suggested title no longer drops a word a cut kept.</li><li>A transcript correction stays undoable after you record a take.</li><li>Pasting words where silence is carried keeps b-roll, music and other layers whole.</li><li>Pasting a short piece no longer plays the next word&apos;s start ahead of it.</li><li>On device, a title card placed where you quote the words lands on the quote again.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.11.5/Rooster-1.11.5.dmg" length="42228392" type="application/octet-stream" sparkle:edSignature="zkYPy3UDK0VhDNKuzC83H9mq4Voa0aU8yj1yKZ/ZzT680BJrxseqGeIzxivOtOLbrR7UBMEEVCy04EEbrEl4Dw==" />
+    </item>
+    <item>
       <title>Rooster 1.11.4</title>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>51</sparkle:version>
