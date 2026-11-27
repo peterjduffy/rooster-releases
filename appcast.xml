@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.11.6</title>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>53</sparkle:version>
+      <sparkle:shortVersionString>1.11.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.11.6 makes recording easier to start: most Record buttons ask whether you want Camera, Screen + Camera or Audio only, and the recorder bar is one centred cluster with Stop where Record was.</p>
+        <p>Remove retakes now finds a retake you mark with &quot;sorry, let me start that again&quot;, and music keeps playing under words you paste.</p>
+        <h3>New</h3>
+        <ul><li>The Record buttons in the sidebar, foot bar, welcome screen and empty project ask Camera, Screen + Camera or Audio only before the recorder opens, each with a picture.</li><li>Remove retakes finds a false start the speaker marks with an apology or &quot;let me start again&quot;, and cuts straight into the restart.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The recorder bar is one centred group: sources, then Record, the teleprompter and settings. Stop and the elapsed time sit where Record was.</li><li>The microphone level is a slim meter on the edge of the recorder preview instead of a bar in the recorder.</li><li>The screen-sharing toggle is a laptop glyph whose tooltip says the recorder moves to a floating panel.</li><li>The floating recorder panel shows camera, microphone and screen names in full.</li><li>Record during a running take brings that take forward instead of asking what to record.</li><li>Music keeps playing under words pasted into the script.</li><li>Blur Background reads Mixed when scenes hold different strengths, and says a drag sets them all to one.</li><li>Corner keeps a Screen + Camera take&apos;s camera where it was recorded.</li><li>The teleprompter panel no longer minimises into the Dock, where it was hard to find.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Undo Add Take removes the take&apos;s words from the script and puts back the project&apos;s previous name.</li><li>Corner after Media or a card draws the camera in the same box as after Camera.</li><li>A camera take that ends with an error but finished writing is kept at once, with a note saying what ended it.</li><li>When the chat asks for Studio Voice and something else, the other changes land even if Studio Voice cannot render.</li><li>A first transcription model download fetches the exact files Rooster checks.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.11.6/Rooster-1.11.6.dmg" length="41332405" type="application/octet-stream" sparkle:edSignature="DyIku6Rz7hPfcHCWubA6BM0A8O175LFY8N4/JzQUJQwcD2ou4mmNgQI3I6wnSQohetEQ5XxI+UiVk7ND0/iaCw==" />
+    </item>
+    <item>
       <title>Rooster 1.11.5</title>
       <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>52</sparkle:version>
