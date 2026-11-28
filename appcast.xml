@@ -6,6 +6,24 @@
     <description>Updates for Rooster, the Mac video editor.</description>
     <language>en</language>
     <item>
+      <title>Rooster 1.11.7</title>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>1.11.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>Rooster 1.11.7 lets you cut less than a word: drag across the waveform to select a stretch of time and press Delete, or fine-tune any cut from its mark in the script.</p>
+        <p>Cut edges are cleaner too - a trailing s or sh no longer plays after a cut - and an empty project is clearer about how to begin.</p>
+        <h3>New</h3>
+        <ul><li>Drag across the main recording&apos;s waveform on the timeline to select a stretch of time, then press Delete to cut exactly that stretch.</li><li>A cut mark in the script offers Fine-tune the cut, which opens the timeline at the join and selects a short leftover there when it hears one.</li></ul>
+        <h3>Improved</h3>
+        <ul><li>The script&apos;s right-click menu and selection bar lead with Delete. Cut, Copy and Paste sit at the end of the menu.</li><li>A cut no longer leaves the end of an s, sh, f or th sound playing after the words you kept.</li><li>The empty script editor shows a grey hint saying you can type or record.</li><li>An empty project&apos;s Record and Import media buttons are full-width, and the typing line is a quiet link VoiceOver can press.</li><li>The card over an empty stage keeps Record and Import readable while the window is active, with whole words at the smallest window.</li><li>The sidebar&apos;s Record label stays on one line at its narrowest.</li><li>An Improve list retake shows all of its struck words.</li><li>The chat&apos;s filler reply says the same as the Improve list when fillers are heard but cannot be cut cleanly.</li><li>The chat says Studio Voice is already on when you ask for it and it is.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li>Undo Add Take on an empty project&apos;s first take goes back to Untitled Project.</li><li>Deleting a sentence no longer keeps its first word playing when the word before sat far back in a long pause.</li><li>A take added back after undo is transcribed and named again, and its words are not counted twice.</li></ul>
+      ]]></description>
+      <enclosure url="https://github.com/peterjduffy/rooster-releases/releases/download/v1.11.7/Rooster-1.11.7.dmg" length="41414368" type="application/octet-stream" sparkle:edSignature="HuXTRlXtdgWMj/g6j7Y5jRdy5az2SFJ0WWoQWRHlNGoF2UmJiT7VITK7+a42yJebAYiJXwTMthQCsjpwS5ENAw==" />
+    </item>
+    <item>
       <title>Rooster 1.11.6</title>
       <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
       <sparkle:version>53</sparkle:version>
